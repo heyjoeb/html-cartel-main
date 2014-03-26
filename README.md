@@ -1,9 +1,10 @@
 html-cartel-main
 ================
 
-set up del sitio de cartel hecho vía el generator "webapp" de yeoman.
+Archivos editables (no comprimidos) del set up de cartel media. 
+hecho vía el generator "webapp" de yeoman.
 en la carpeta "app" están los archivos descomprimidos para desarrollo. 
-hay que tener en cuenta que la hoja de estilos está en en scss y al compilarla genera el css.
+hay que tener en cuenta que la hoja de estilos está en en scss y al compilarla genera el css y los js necesarios comprimidos en una carpetaa llamada "dist".
 
 ---- herramientas de desarrollo utilizadas:
 
