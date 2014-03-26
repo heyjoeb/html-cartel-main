@@ -5,7 +5,7 @@ set up del sitio de cartel hecho vía el generator "webapp" de yeoman.
 en la carpeta "app" están los archivos descomprimidos para desarrollo. 
 hay que tener en cuenta que la hoja de estilos está en en scss y al compilarla genera el css.
 
---- herramientas de desarrollo utilizadas:
+---- herramientas de desarrollo utilizadas:
 
 - YEOMAN: http://yeoman.io/
 
@@ -32,7 +32,7 @@ hay que tener en cuenta que la hoja de estilos está en en scss y al compilarla 
 - JQUERY STICKY-KIT: https://github.com/leafo/sticky-kit
 
 
---- secciones creadas: 
+---- secciones creadas: 
 
 - index.html
 
