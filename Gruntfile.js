@@ -295,6 +295,15 @@ module.exports = function (grunt) {
         //     dist: {}
         // },
 
+        //  // Removes unused CSS
+        // uncss: {
+        //     dist: {
+        //         files : {
+        //             '<%= yeoman.dist %>/styles/main.css': ['<%= yeoman.dist %>/index.html', '<%= yeoman.dist %>/inteligencia.html', '<%= yeoman.dist %>/que-es.html', '<%= yeoman.dist %>/blog-landing.html', '<%= yeoman.dist %>/blog-detail.html', '<%= yeoman.dist %>/404.html']
+        //         }
+        //     }
+        // },
+
         // Copies remaining files to places other tasks can use
         copy: {
             dist: {
@@ -409,4 +418,15 @@ module.exports = function (grunt) {
         'test',
         'build'
     ]);
+
+    // grunt.registerTask('build-uncss', [
+    //     'build',
+    //     'uncss'
+    // ]);
+
+    // grunt.registerTask('default', [
+    //     'newer:jshint',
+    //     'test',
+    //     'build'
+    // ]);
 };
